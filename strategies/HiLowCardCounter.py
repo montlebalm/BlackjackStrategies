@@ -10,14 +10,14 @@ class HiLowCardCounter(Strategy):
 	pluses = ["2", "3", "4", "5", "6"]
 	minuses = ["10", "J", "Q", "K", "A"]
 
-	def hit_on(self, cards, deck, dealer_card):
+	def hit_on(self, cards, remaining_cards, dealer_card):
 		total = card_total(cards)
 
 		# Always hit if we're too low
 		if total <= 11:
 			return True
 
-		count = self.__card_count(deck.cards)
+		count = self.__card_count(remaining_cards)
 
 		# Hit if the deck is stacked with low cards
 		if total <= 15 and count > 0:

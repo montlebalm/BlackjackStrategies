@@ -57,7 +57,7 @@ class Game(object):
 			if not self.__deck.cards:
 				self.__deck = self.__deck_factory()
 
-			if player.hit_on(cards, self.__deck, dealer_card):
+			if player.hit_on(cards, self.__deck.cards, dealer_card):
 				cards += self.__next_cards(1)
 			else:
 				break

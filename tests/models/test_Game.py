@@ -1,23 +1,21 @@
 from nose.tools import raises
 
-from models.Deck import Deck
-from models.Game import Game
-from strategies.DealerStrategy import DealerStrategy
-from strategies.HitBelowStrategy import HitBelowStrategy
+from models import Deck, Game
+from strategies import Dealer, HitBelow
 
 
 @raises(Exception)
 def test_raises_with_no_dealer():
-	gamblers = [HitBelowStrategy(1)]
+	gamblers = [HitBelow(1)]
 	Game(None, gamblers, Deck)
 
 
 @raises(Exception)
 def test_raises_with_no_gamblers():
-	Game(DealerStrategy(), [], Deck)
+	Game(Dealer(), [], Deck)
 
 
 @raises(Exception)
 def test_raises_without_deck_factory():
-	gamblers = [HitBelowStrategy(1)]
-	Game(DealerStrategy(), gamblers, None)
+	gamblers = [HitBelow(1)]
+	Game(Dealer(), gamblers, None)

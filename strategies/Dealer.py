@@ -6,5 +6,5 @@ class Dealer(Strategy):
 
 	name = "Dealer"
 
-	def hit_on(self, cards, deck, dealer_card):
+	def hit_on(self, cards, remaining_cards, dealer_card):
 		return card_total(cards) < 17

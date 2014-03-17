@@ -6,6 +6,6 @@ class Psychic(Strategy):
 
 	name = "Psychic"
 
-	def hit_on(self, cards, deck, dealer_card):
+	def hit_on(self, cards, remaining_cards, dealer_card):
 		# Cheat by looking at the next card to see if we'll bust
-		return card_total(cards + [deck.next_card()]) <= 21
+		return card_total(cards + [remaining_cards[-1]]) <= 21
