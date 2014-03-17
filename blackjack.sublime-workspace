@@ -1,0 +1,595 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"__get",
+				"__get_cards_from_deck"
+			],
+			[
+				"player",
+				"player_cards	statement"
+			],
+			[
+				"all",
+				"all_players	statement"
+			],
+			[
+				"unbu",
+				"unbusted_gamblers	statement"
+			],
+			[
+				"get_",
+				"get_player_total	function"
+			],
+			[
+				"card",
+				"card_total	import"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"public",
+				"public_dir"
+			],
+			[
+				"mess",
+				"messageOutput"
+			],
+			[
+				"_get",
+				"_getNextCursorCoord"
+			],
+			[
+				"dir",
+				"direction"
+			],
+			[
+				"_move",
+				"_moveCursorForward"
+			],
+			[
+				"axi",
+				"axisMap"
+			],
+			[
+				"_mod",
+				"_moveCursorBackward"
+			],
+			[
+				"other",
+				"otherAxis"
+			],
+			[
+				"RED",
+				"REDIRECT_WHEN_UNAUTH"
+			],
+			[
+				"datef",
+				"dateFormat"
+			],
+			[
+				"Trans",
+				"TransactionRow"
+			],
+			[
+				"tr",
+				"transactions"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"rec",
+				"_receiveMessage"
+			],
+			[
+				"act",
+				"activeConversation"
+			],
+			[
+				"Messen",
+				"MessengerSvc"
+			],
+			[
+				"Mess",
+				"MessengerSvc"
+			],
+			[
+				"issue",
+				"issueIds"
+			],
+			[
+				"Stream",
+				"StreamerClass"
+			],
+			[
+				"str",
+				"streamData  (variable)"
+			]
+		]
+	},
+	"build_system": "Project - Run",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"dis	",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"node",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bear/Sites/learning/python/blackjack/strategies/Strategy.py",
+		"/Users/bear/Sites/learning/python/blackjack/tests/strategies/test_HitBelowStrategy.py",
+		"/Users/bear/Sites/learning/python/blackjack/strategies/PsychicStrategy.py",
+		"/Users/bear/Sites/learning/python/blackjack/strategies/HitBelowStrategy.py",
+		"/Users/bear/Sites/learning/python/blackjack/models/Deck.py",
+		"/Users/bear/Sites/learning/python/blackjack/models/Card.py",
+		"/Users/bear/Sites/learning/python/blackjack/tests/models/test_Game.py",
+		"/Users/bear/Sites/learning/python/blackjack/tests/models/test_Deck.py",
+		"/Users/bear/Sites/learning/python/blackjack/strategies/DealerStrategy.py",
+		"/Users/bear/Sites/learning/python/blackjack/main.py",
+		"/Users/bear/Sites/learning/python/blackjack/tests/strategies/test_DealerStrategy.py",
+		"/Users/bear/Sites/learning/python/blackjack/models/Game.py",
+		"/Users/bear/Sites/learning/python/blackjack/tests/models/test_Card.py",
+		"/Users/bear/Sites/learning/python/blackjack/venv/include/python3.3m/graminit.h",
+		"/Users/bear/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bear/Sites/learning/python/blackjack/blackjack.sublime-project",
+		"/Users/bear/Sites/learning/python/WebSocket-Reader/tornado-streamer.sublime-project",
+		"/Users/bear/Sites/learning/python/blackjack/tests/models/__init__.py",
+		"/Users/bear/Sites/learning/python/blackjack/venv/lib/python3.3/site-packages/setuptools/script template.py",
+		"/Users/bear/Sites/learning/python/blackjack/venv/lib/python3.3/site-packages/setuptools/gui-arm-32.exe",
+		"/Users/bear/Sites/learning/python/blackjack/venv/lib/python3.3/site-packages/setuptools/tests/script-with-bom.py",
+		"/Users/bear/Sites/learning/python/blackjack/venv/lib/python3.3/encodings/mac_arabic.py",
+		"/Users/bear/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/bear/Sites/learning/python/blackjack/venv/lib/python2.7/site-packages/setuptools/tests/test_easy_install.py",
+		"/Users/bear/Sites/learning/python/blackjack/venv/include/python2.7/timefuncs.h",
+		"/Users/bear/Sites/learning/python/blackjack/helpers/cards.py",
+		"/Users/bear/Sites/learning/python/tornado-chat/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/noptify/actions/commandable.js",
+		"/Users/bear/Sites/learning/python/tornado-chat/node_modules/react-tools/node_modules/commoner/node_modules/recast/node_modules/ast-types/node_modules/ast-path/node_modules/mocha/node_modules/commander/lib/commander.js",
+		"/Users/bear/Sites/learning/python/tornado-chat/node_modules/react-tools/node_modules/commoner/node_modules/recast/node_modules/ast-types/node_modules/ast-path/node_modules/mocha/lib/context.js",
+		"/Users/bear/Sites/learning/python/tornado-chat/node_modules/react-tools/src/eventPlugins/AnalyticsEventPluginFactory.js",
+		"/Users/bear/Sites/learning/python/blackjack/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.py",
+		"/Users/bear/Sites/learning/python/tornado-chat/node_modules/grunt-contrib-jshint/AUTHORS",
+		"/Users/bear/Sites/learning/python/blackjack/strategies/BustStrategy.py",
+		"/Users/bear/Sites/learning/python/blackjack/strategies/SafeStrategy.py",
+		"/Users/bear/Sites/learning/python/blackjack/models/Player.py",
+		"/Users/bear/Sites/learning/python/tornado-chat/node_modules/react-tools/build/modules/DefaultEventPluginOrder.js",
+		"/Users/bear/Sites/learning/python/blackjack/venv/lib/python2.7/site-packages/setuptools/cli-arm-32.exe",
+		"/Users/bear/Sites/learning/python/conway/conway.py",
+		"/Users/bear/Sites/learning/python/blackjack/helpers/__init__.py",
+		"/Users/bear/Sites/learning/python/blackjack/strategies/__init__.py",
+		"/Users/bear/Sites/sites/chrismontrois-com/_includes/intro.html",
+		"/Users/bear/Sites/sites/chrismontrois-com/_includes/posts.html",
+		"/Users/bear/Sites/learning/python/tornado-streamer/public/templates/index.html",
+		"/Users/bear/Sites/learning/python/tornado-streamer/public/text/conan.txt",
+		"/Users/bear/Sites/learning/python/tornado-streamer/server.py",
+		"/Users/bear/Sites/learning/python/tornado-streamer/public/text/raven.txt",
+		"/Users/bear/Sites/learning/python/tornado-streamer/tornado-streamer.sublime-project",
+		"/Users/bear/Sites/ideas/crossword/public/scripts/components/PuzzleBoard.jsx",
+		"/Users/bear/Sites/ideas/crossword/public/scripts/components/Crossword.jsx",
+		"/Users/bear/Sites/ideas/crossword/public/scripts/components/PuzzleBoard.js",
+		"/Users/bear/Sites/ideas/crossword/public/styles/styles.css",
+		"/Users/bear/Sites/ideas/bdgt/public/scripts/pages/IndexPage.js",
+		"/Users/bear/Sites/ideas/bdgt/node_modules/react-tools/build/modules/ReactOwner.js",
+		"/Users/bear/Sites/ideas/bdgt/node_modules/async/README.md",
+		"/Users/bear/Sites/ideas/bdgt/node_modules/react-tools/main.js",
+		"/Users/bear/Sites/ideas/bdgt/node_modules/grunt-react/main.js",
+		"/Users/bear/Sites/ideas/bdgt/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/bear/Sites/ideas/bdgt/node_modules/express/Makefile",
+		"/Users/bear/Sites/gitlab/station/public/thirdparty/F2/F2-BS3.js",
+		"/Users/bear/Sites/gitlab/station/models/user.js",
+		"/Users/bear/Sites/gitlab/station/public/css/style.less",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_messenger/messenger.css",
+		"/Users/bear/Sites/gitlab/station/views/dashboard/index.jade",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_messenger/messenger.js",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_messenger/messenger.jsx",
+		"/Users/bear/Sites/gitlab/station/public/js/main.js",
+		"/Users/bear/Sites/gitlab/station/models/storage.js",
+		"/Users/bear/Sites/gitlab/station/public/js/app.js",
+		"/Users/bear/Sites/gitlab/station/routes/f2-apps.js",
+		"/Users/bear/Sites/gitlab/station/node_modules/nodemon/faq.md",
+		"/Users/bear/Sites/gitlab/station/node_modules/grunt-express-server/test/stoppable_test.js",
+		"/Users/bear/Sites/gitlab/station/node_modules/express/node_modules/mkdirp/test/umask_sync.js",
+		"/Users/bear/Sites/gitlab/station/app.js",
+		"/Users/bear/Sites/gitlab/station/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/add-mixed-units.less",
+		"/Users/bear/Sites/gitlab/station/node_modules/grunt/AUTHORS",
+		"/Users/bear/Sites/gitlab/station/public/thirdparty/fancybox/helpers/jquery.fancybox-thumbs.css",
+		"/Users/bear/Sites/gitlab/station/public/thirdparty/fancybox/helpers/jquery.fancybox-thumbs.js",
+		"/Users/bear/Sites/gitlab/station/node_modules/grunt-react/node_modules/react-tools/build/modules/SyntheticFocusEvent.js",
+		"/Users/bear/Sites/gitlab/station/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js",
+		"/Users/bear/Sites/gitlab/station/node_modules/less-middleware/node_modules/less/node_modules/request/tests/test-http-signature.js",
+		"/Users/bear/Sites/gitlab/station/Gruntfile.js",
+		"/Users/bear/Sites/gitlab/station/views/layout.jade",
+		"/Users/bear/Sites/bdgt/public/scripts/main.js",
+		"/Users/bear/Sites/bdgt/app.js",
+		"/Users/bear/Sites/bdgt/package.json",
+		"/Users/bear/Sites/bdgt/Gruntfile.js",
+		"/Users/bear/Sites/bdgt/routes/user.js",
+		"/Users/bear/Sites/gitlab/station/package.json",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_messenger/appclass.js",
+		"/Users/bear/Sites/gitlab/station/public/js/StreamerClass.js",
+		"/Users/bear/Sites/gitlab/station/vpn.sh",
+		"/Users/bear/Sites/gitlab/station/utils/index.js",
+		"/Users/bear/Sites/gitlab/station/public/js/streaming.js",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_marketmap/manifest.js",
+		"/Users/bear/Sites/gitlab/station/public/apps/template_app_id/appclass.js",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_livestream/livestream.js",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_livestream/manifest.js",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_messenger/manifest.js",
+		"/Users/bear/Sites/gitlab/station/.jshintrc",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_market_movers/appclass.js",
+		"/Users/bear/Sites/gitlab/station/public/apps/com_modstation_marketmap/marketmap.js",
+		"/Users/bear/Sites/index.html.en",
+		"/Users/bear/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"-node_modules/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"next_card",
+			"HitBelowStrategy",
+			"DealerStrategy",
+			"Card",
+			"Game",
+			"Deck",
+			"Card",
+			"dealer",
+			"self.all_players",
+			"self.deck",
+			"\nself.deck",
+			"self.deck",
+			"self.gamblers",
+			"self.dealer",
+			"dealer",
+			"SafeStrategy",
+			"UpperLimitStrategy",
+			"DealerStrategy",
+			"SafeStrategy",
+			"totals",
+			"highest_gambler",
+			"dirMap[direction].axis",
+			"_moveCursorBackward",
+			"_moveCursorForward",
+			"directionMap",
+			"axisMap",
+			"directionMap",
+			"_changeCoord",
+			"_tileInSection",
+			"SettingsPage",
+			".messagescontainer",
+			"img",
+			"avatar",
+			"emitting app",
+			"emitting\",",
+			"emitting',",
+			"emitting",
+			"APP_HEIGHT_CHANGE",
+			"DatePicker",
+			"TransactionRow",
+			">>>>",
+			">>>",
+			"<<<",
+			"messagesButton",
+			"				",
+			"\"",
+			"updateCb",
+			"pageConfig",
+			"appsperpage",
+			"handleStream",
+			"updatedValues",
+			"this.stream.setParam",
+			"'x'",
+			"X",
+			"sendupdate",
+			"removeS",
+			"updatecb",
+			"session",
+			"httpstream",
+			"StreamManager.1.js",
+			"HttpStream.1.js",
+			"HttpStream.js",
+			"thirdparty",
+			"console.",
+			"environment",
+			"\"",
+			"stream"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"self.__players",
+			"self.__deck",
+			"self.__gamblers",
+			"dirMap",
+			"_isTileInSection",
+			"'",
+			"updateFn"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 227.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"main.py"
+			],
+			[
+				"game",
+				"models/Game.py"
+			],
+			[
+				"gm",
+				"models/Game.py"
+			],
+			[
+				"test",
+				"tests/models/test_Game.py"
+			],
+			[
+				"testgam",
+				"tests/models/test_Game.py"
+			],
+			[
+				"testde",
+				"tests/models/test_Deck.py"
+			],
+			[
+				"deck",
+				"models/Deck.py"
+			],
+			[
+				"test_de",
+				"tests/models/test_Deck.py"
+			],
+			[
+				"dealerst",
+				"strategies/DealerStrategy.py"
+			],
+			[
+				"hitb",
+				"strategies/HitBelowStrategy.py"
+			],
+			[
+				"strategy",
+				"strategies/Strategy.py"
+			],
+			[
+				"test_hit",
+				"tests/strategies/test_HitBelowStrategy.py"
+			],
+			[
+				"dealer",
+				"tests/strategies/test_DealerStrategy.py"
+			],
+			[
+				"hitbe",
+				"strategies/HitBelowStrategy.py"
+			],
+			[
+				"cards",
+				"blackjack/helpers/cards.py"
+			],
+			[
+				"index",
+				"public/templates/index.html"
+			],
+			[
+				"rout",
+				"public/scripts/routes.js"
+			],
+			[
+				"messenger",
+				"public/apps/com_modstation_messenger/messenger.css"
+			],
+			[
+				"f2",
+				"public/thirdparty/F2/F2-BS3.js"
+			],
+			[
+				"storage",
+				"models/storage.js"
+			],
+			[
+				"user",
+				"models/user.js"
+			],
+			[
+				"style.le",
+				"public/css/style.less"
+			],
+			[
+				"layout",
+				"views/layout.jade"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"messeng",
+				"public/apps/com_modstation_messenger/messenger.css"
+			],
+			[
+				"appcla",
+				"public/apps/com_modstation_messenger/appclass.js"
+			],
+			[
+				"main.js",
+				"public/js/main.js"
+			],
+			[
+				"messen",
+				"public/apps/com_modstation_messenger/messenger.jsx"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"vpn",
+				"vpn.sh"
+			],
+			[
+				"appcl",
+				"public/apps/com_modstation_messenger/appclass.js"
+			],
+			[
+				"mes",
+				"public/apps/com_modstation_messenger/messenger.jsx"
+			],
+			[
+				"app.js",
+				"app.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"appclass",
+				"public/apps/com_modstation_market_movers/appclass.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
