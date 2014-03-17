@@ -1,8 +1,8 @@
-from strategies.Strategy import Strategy
+from strategies import Strategy
 from helpers.cards import card_total
 
 
-class HitBelowStrategy(Strategy):
+class HitBelow(Strategy):
 
 	name = "HitBelow"
 
@@ -10,5 +10,5 @@ class HitBelowStrategy(Strategy):
 		self.limit = limit
 		self.name += str(limit)
 
-	def hit_on(self, cards, deck):
+	def hit_on(self, cards, deck, dealer_card):
 		return card_total(cards) < self.limit

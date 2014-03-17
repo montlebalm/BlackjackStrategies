@@ -1,3 +1,5 @@
 *.pyc
 __pycache__/
 venv/
+/strategies/*.tags
+/strategies/*.tags_sorted_by_file
