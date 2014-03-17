@@ -124,6 +124,18 @@
 		"selected_items":
 		[
 			[
+				"ctag",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"test",
+				"Build: Project - Tests"
+			],
+			[
+				"",
+				"CTags: Rebuild Tags"
+			],
+			[
 				"rem",
 				"Package Control: Remove Package"
 			],
@@ -140,13 +152,15 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 576.0
+		"width": 408.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
+			"build",
+			"dir",
 			"node",
 			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
 		]
@@ -162,6 +176,13 @@
 	},
 	"file_history":
 	[
+		"/C/Projects/playground/github/BlackjackStrategies/strategies/__init__.py",
+		"/C/Users/chris.montrois/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Projects/playground/github/BlackjackStrategies/strategies/DealerStrategy.py",
+		"/C/Projects/playground/github/BlackjackStrategies/strategies/HitBelowStrategy.py",
+		"/C/Projects/playground/github/BlackjackStrategies/strategies/PsychicStrategy.py",
+		"/C/Projects/playground/github/BlackjackStrategies/blackjack.sublime-project",
+		"/C/Projects/playground/github/BlackjackStrategies/models/__init__.py",
 		"/Users/bear/Sites/learning/python/blackjack/strategies/Strategy.py",
 		"/Users/bear/Sites/learning/python/blackjack/tests/strategies/test_HitBelowStrategy.py",
 		"/Users/bear/Sites/learning/python/blackjack/strategies/PsychicStrategy.py",
@@ -284,6 +305,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"models",
 			"next_card",
 			"HitBelowStrategy",
 			"DealerStrategy",
@@ -405,7 +427,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 227.0
+		"height": 386.0
 	},
 	"output.find_results":
 	{

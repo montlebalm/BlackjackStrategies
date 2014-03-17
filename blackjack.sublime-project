@@ -8,14 +8,21 @@
 		"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 		"name": "Project - Run",
 		"selector": "source.python",
-		"working_dir": "$project_path"
-	}, {
-		"cmd": [
-			"$project_path/venv/bin/nosetests"
-		],
-		"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-		"name": "Project - Tests",
-		"selector": "source.python",
+		"variants": [{
+			"cmd": ["$project_path/venv/bin/nosetests"],
+			"name": "Project - Tests"
+		}],
+		"windows": {
+			"cmd": [
+				"$project_path/venv/scripts/python",
+				"-u",
+				"$project_path/main.py"
+			],
+			"variants": [{
+				"cmd": ["$project_path/venv/scripts/nosetests"],
+				"name": "Project - Tests"
+			}]
+		},
 		"working_dir": "$project_path"
 	}],
 	"folders": [{
